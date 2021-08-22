@@ -16,7 +16,12 @@ import java.util.List;
 @Setter
 public class IndexBean implements Serializable {
 
-    private List<String> list;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
+	private List<String> list;
     private String name;
 
     @PostConstruct
